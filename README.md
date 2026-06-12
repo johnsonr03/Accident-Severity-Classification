@@ -19,7 +19,7 @@ The project implements three primary neural network architectures:
  - Data Loading
  - Data Analysis
  - Data Cleaning
- - Exploratory Data Analysis (EDA):
+ - Exploratory Data Analysis:
      - Univariate Analysis
      - Bivariate Analysis
      - Multivariate Analysis
