@@ -4,9 +4,9 @@
 This project aims to predict the severity of US road accidents using a series of experimental Artificial Neural Network architectures. The project pipeline processes vast historical accident records from 2016 to 2023 to forecast incident severity levels. The data preprocessing workflow encompasses addressing missing values via imputation, mitigating outliers through Winsorization, and encoding features. To maximise predictive performance, three increasingly complex ANN models were benchmarked, and the optimal architecture was further refined via hyperparameter optimisation. Accurate severity prediction is critical for traffic management, emergency medical services, and urban planners seeking to proactively optimise resource coordination and strengthen public safety.
 
 The project implements three neural network architectures:
- - Model 1 (Experimental): A baseline, shallow Artificial Neural Network.
- - Model 2 (Experimental): An expanded ANN with additional dense layer and dropout regularisation.
- - Model 3 (Experimental): A complex ANN built with increased hidden layer depth and optimised dropout layers.
+ - Model 1 (Experimental): A baseline, shallow Artificial Neural Network using the Adam optimiser.
+ - Model 2 (Experimental): An expanded ANN with additional dense layer, Batch Normalisation, and dropout regularisation, also utilising the Adam optimiser.
+ - Model 3 (Experimental): A complex ANN built with increased hidden layer depth, Batch Normalisation, and optimised dropout layers, utilising the AdamW optimiser.
 
 ### Objectives
  - Comprehensive Preprocessing: Handle missing values, treat outliers using Winsorization, and apply categorical encoding.
