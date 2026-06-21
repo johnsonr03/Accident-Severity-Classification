@@ -13,7 +13,7 @@ The project implements three neural network architectures:
  - Exploratory Data Analysis: Extract insights into spatial-temporal accident distributions and environmental correlations.
  - Model Development: Implement and train three distinct Artificial Neural Network architectures.
  - Model Benchmarking: Evaluate performance configurations across three experimental neural networks.
- - Hyperparameter Optimisation: Improve the final model's metrics by tuning hyperparameters with RandomizedSearchCV.
+ - Hyperparameter Optimisation: Improve the final model's metrics by tuning hyperparameters with Bayesian Optimisation (Optuna).
 
 ### Notebook Structure
  - Data Loading
