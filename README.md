@@ -28,8 +28,8 @@ The project implements three neural network architectures:
      - Model 1: Baseline ANN.
      - Model 2: Deepened ANN structure with added dense layer and dropout layers.
      - Model 3: Deepest ANN configuration maximising the number of hidden units and regularisation layers.
- - Hyperparameter Optimisation
  - Result Comparison
+ - Hyperparameter Optimisation
 
 ### Dataset Information
 Dataset: Sobhan Moosavi. (2023). US Accidents (2016 - 2023) [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DS/199387
